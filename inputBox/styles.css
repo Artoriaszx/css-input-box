@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#box {
+    border: 2px solid black;
+    padding: 10%;
+    transition: all 0.2s ease-out;
+}
+
+.boxTxt {
+    margin: 2px;
+}
+
+#box:hover {
+    padding: 12%;
+    cursor: pointer;
+}
+
+#input, #element {
+    margin: 5px 2px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 7px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    padding: 5px;
+}
